@@ -19,7 +19,7 @@ function AppButton({
     outlined: {
       background: "transparent",
       color: color,
-      border: "2px solid ${color}",
+      border: `2px solid ${color}`,
       boxShadow: "none",
     },
     transparent: {
