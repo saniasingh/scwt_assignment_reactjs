@@ -6,6 +6,7 @@ import { ReachOutComponent } from "./components/ReachOutComponent/ReachOutCompon
 import { HowItWorks } from "./components/HowItWorkComponent/HowItWorks.jsx";
 // import { steps } from "./components/HowItWorkComponent/howItWorkData.json";
 import { Customers } from "./components/CustomersComponent/customers.jsx";
+import { Teams } from "./components/TeamsComponent/Teams.jsx";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <NavBar />
       {/* <HeroSection /> */}
       {/* <HowItWorkcard data={steps} /> */}
+      <Teams />
       <HowItWorks />
       <Customers />
       <ReachOutComponent />
