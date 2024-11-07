@@ -12,7 +12,7 @@ function App() {
   return (
     <div>
       <NavBar />
-      {/* <HeroSection /> */}
+      <HeroSection />
       {/* <HowItWorkcard data={steps} /> */}
       <Teams />
       <HowItWorks />

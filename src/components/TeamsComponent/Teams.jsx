@@ -90,23 +90,166 @@ export const Teams = () => {
                   Your Teams
                 </span>
               </p>
-              <Row>
-                <Col>
+              <Row style={{ margin: "10px 0" }}>
+                <Col className="py-1">
                   <img
                     src="./Group.png"
                     alt="Logo"
                     style={{
                       width: "50px",
                       height: "50px",
-                      margin: "2px 0px"
+                      margin: "2px 0px",
                     }}
                   />
                 </Col>
-                <Col>
-                  <Row>Admin Control Panel</Row>
-                  <Row>
+
+                <Col md={10}>
+                  <Row
+                    style={{
+                      margin: "8px 0",
+                      color: "black",
+                      fontSize: "22px",
+                      fontWeight: "800",
+                      lineHeight: "20px",
+                    }}
+                  >
+                    Admin Control Panel
+                  </Row>
+
+                  <Row
+                    style={{
+                      margin: "8px 0",
+
+                      color: "rgba(105, 105, 105, 1)",
+                      fontSize: "16px",
+                      fontWeight: "00",
+                      lineHeight: "22px",
+                    }}
+                  >
                     Sed amet eveniet quo nihil autem ea odio officia. inventore
                     voluptatem
+                  </Row>
+                </Col>
+              </Row>
+              <Row style={{ margin: "10px 0" }}>
+                <Col className="py-1">
+                  <img
+                    src="./Group (1).png"
+                    alt="Logo"
+                    style={{
+                      width: "50px",
+                      height: "50px",
+                      margin: "2px 0px",
+                    }}
+                  />
+                </Col>
+                <Col md={10}>
+                  <Row
+                    style={{
+                      margin: "8px 0",
+                      color: "black",
+                      fontSize: "22px",
+                      fontWeight: "800",
+                      lineHeight: "20px",
+                    }}
+                  >
+                    Track performance Metrics
+                  </Row>
+
+                  <Row
+                    style={{
+                      margin: "8px 0",
+                      color: "rgba(105, 105, 105, 1)",
+                      fontSize: "16px",
+                      fontWeight: "00",
+                      lineHeight: "22px",
+                    }}
+                  >
+                    Qui corrupti debitis aut rerum doloremque qui consequatur
+                    dolore
+                  </Row>
+                </Col>
+              </Row>
+              <Row style={{ margin: "10px 0" }}>
+                <Col className="py-1">
+                  <img
+                    src="./Group.png"
+                    alt="Logo"
+                    style={{
+                      width: "50px",
+                      height: "50px",
+                      margin: "2px 0px",
+                    }}
+                  />
+                </Col>
+                <Col md={10}>
+                  <Row
+                    style={{
+                      margin: "8px 0",
+
+                      color: "black",
+                      fontSize: "22px",
+                      fontWeight: "800",
+                      lineHeight: "20px",
+                    }}
+                  >
+                    Control User Profile
+                  </Row>
+
+                  <Row
+                    style={{
+                      margin: "8px 0",
+
+                      color: "rgba(105, 105, 105, 1)",
+                      fontSize: "16px",
+                      fontWeight: "00",
+                      lineHeight: "22px",
+                    }}
+                  >
+                    Est modi omnis qui illum accusamus qui galisum voluptatem
+                    aut laudantium
+                  </Row>
+                </Col>
+              </Row>
+              <Row style={{ margin: "10px 0" }}>
+                <Col className="py-1">
+                  <img
+                    src="./Group (1).png"
+                    alt="Logo"
+                    style={{
+                      width: "50px",
+                      height: "50px",
+                      margin: "2px 0px",
+                      textShadow: "2px 2px 2px yellow",
+                    }}
+                  />
+                </Col>
+                <Col md={10}>
+                  <Row
+                    style={{
+                      margin: "8px 0",
+
+                      color: "black",
+                      fontSize: "22px",
+                      fontWeight: "800",
+                      lineHeight: "20px",
+                    }}
+                  >
+                    Monitor Your Teams
+                  </Row>
+
+                  <Row
+                    style={{
+                      margin: "8px 0",
+
+                      color: "rgba(105, 105, 105, 1)",
+                      fontSize: "16px",
+                      fontWeight: "00",
+                      lineHeight: "22px",
+                    }}
+                  >
+                    labore et laboriosam recusandae est magni iure rem error
+                    accusamus
                   </Row>
                 </Col>
               </Row>
