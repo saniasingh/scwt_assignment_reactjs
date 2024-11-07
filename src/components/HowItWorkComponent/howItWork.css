@@ -1,0 +1,9 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  /* right-margin: 180px; */
+}
