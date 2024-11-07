@@ -1,11 +1,72 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+/* eslint-disable react/display-name */
+/* eslint-disable react/prop-types */
+import { forwardRef, useRef, useState } from "react";
+import { Col, Container, Image, Row } from "react-bootstrap";
+import Carousel from "react-bootstrap/Carousel";
 import Form from "react-bootstrap/Form";
-import { BsArrowLeftCircleFill, BsArrowRightCircleFill } from "react-icons/bs";
+import { IconContext } from "react-icons";
+import { BsArrowLeft, BsArrowRight } from "react-icons/bs";
+import AppButton from "../AppButton/AppButton";
 
-import Button from "react-bootstrap/Button";
+const CustomerCarousel = forwardRef(({ activeIndex, onSelect }, ref) => {
+  const handleSelect = (selectedIndex) => {
+    onSelect(selectedIndex);
+  };
+  return (
+    <Carousel
+      ref={ref}
+      activeIndex={activeIndex}
+      onSelect={handleSelect}
+      indicators=""
+      prevIcon=""
+      nextIcon=""
+    >
+      <Carousel.Item>
+        <Image
+          style={{
+            padding: 8,
+          }}
+          src="./image 118.png"
+          alt="card image"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <Image
+          style={{
+            padding: 8,
+          }}
+          src="./image 118.png"
+          alt="card image"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <Image
+          style={{
+            padding: 8,
+          }}
+          src="./image 118.png"
+          alt="card image"
+        />
+      </Carousel.Item>
+    </Carousel>
+  );
+});
 
 export const Customers = () => {
+  const [index, setIndex] = useState(0);
+  const carouselRef = useRef(null);
+
+  const handleNext = () => {
+    carouselRef.current.next();
+  };
+
+  const handlePrev = () => {
+    carouselRef.current.prev();
+  };
+
+  const handleCarouselSelect = (selectedIndex) => {
+    setIndex(selectedIndex);
+  };
   return (
     <div>
       <Container className="d-flex flex-column justify-content-center align-items-center vh-100">
@@ -46,43 +107,34 @@ export const Customers = () => {
           </div>
         </Row>
 
-        <Row className="text-center">
-          <div>
-            <BsArrowLeftCircleFill
-              className="arrow-left"
-              style={{ width: "3rem" }}
-            />
-            <img src="./image 118.png" alt="card image" />
-            <BsArrowRightCircleFill
-              className="arrow-right"
-              style={{ width: "3rem" }}
-            />
-          </div>
-          <div>
-            <Form>
-              <Row className="d-flex flex-row">
-                <Col>
-                  <Button style={{ textTransform: "none", padding: "0" }}>
-                    Front/Back
-                  </Button>
-                </Col>
-                <Col>
-                  <Button
-                    style={{
-                      textTransform: "none",
-                      background: "white",
-                      color: "black",
-                      textShadow: "0px #ccc",
-                      border: "1px solid black",
-                    }}
-                  >
-                    Design My Own
-                  </Button>
-                </Col>
-              </Row>
-            </Form>
-          </div>
-        </Row>
+        <IconContext.Provider value={{ color: "black", size: "40px" }}>
+          <Row className="align-items-center justify-content-center">
+            <Col>
+              <BsArrowLeft onClick={handlePrev} />
+            </Col>
+            <Col>
+              <CustomerCarousel
+                ref={carouselRef}
+                activeIndex={index}
+                onSelect={handleCarouselSelect}
+              />
+            </Col>
+            <Col>
+              <BsArrowRight onClick={handleNext} />
+            </Col>
+          </Row>
+        </IconContext.Provider>
+
+        <Form>
+          <Row className="d-flex flex-row ">
+            <Col>
+              <AppButton>Front/Back</AppButton>
+            </Col>
+            <Col>
+              <AppButton variant="outlined">Design My Own</AppButton>
+            </Col>
+          </Row>
+        </Form>
       </Container>
     </div>
   );
