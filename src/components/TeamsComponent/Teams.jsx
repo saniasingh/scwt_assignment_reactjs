@@ -11,7 +11,7 @@ export const Teams = () => {
       >
         <Form>
           <Row className="d-flex flex-row">
-            <Col style={{ margin: "0 310px 200px 0" }}>
+            <Col style={{ margin: "0 310px 100px 0", position: "relative" }}>
               <div
                 style={{
                   background:
@@ -22,12 +22,9 @@ export const Teams = () => {
                   opacity: "30%",
                 }}
               ></div>
-              <img
-                src="./Group 47908.png"
-                style={{ position: "absolute", top: "310px" }}
-              />
+              <img src="./Group 47908.png" style={{ position: "absolute", top: "70px" }} />
             </Col>
-            <Col>
+            <Col style={{ marginTop: "60px" }}>
               <p style={{ fontSize: "36px", lineHeight: "55px" }}>For Teams</p>
               <p
                 style={{
@@ -52,9 +49,9 @@ export const Teams = () => {
               <p
                 style={{
                   width: "551px",
-                  height: "216px",
+                  height: "150px",
                   color: "rgba(105, 105, 105, 1)",
-                  lineHeight: "36px",
+                  lineHeight: "34px",
                   fontSize: "18px",
                 }}
               >
@@ -69,7 +66,7 @@ export const Teams = () => {
             </Col>
           </Row>
           <Row className="d-flex flex-row">
-            <Col>
+            <Col style={{marginTop: "60px"}}>
               <p
                 style={{
                   fontSize: "36px",
@@ -254,7 +251,7 @@ export const Teams = () => {
                 </Col>
               </Row>
             </Col>
-            <Col>
+            <Col style={{ position: "relative" }}>
               <div
                 style={{
                   background:
@@ -268,10 +265,7 @@ export const Teams = () => {
                   marginLeft: "32%",
                 }}
               ></div>
-              <img
-                src="./Group 47911.png"
-                style={{ position: "absolute", top: "1060px" }}
-              />
+              <img src="./Group 47911.png" style={{ position: "absolute", top: "75px"}} />
             </Col>
           </Row>
         </Form>
