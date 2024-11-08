@@ -1,0 +1,8 @@
+.page-bg {
+  background: white;
+  background: radial-gradient(circle at top right, #fff9e6, transparent 36%);
+}
+
+* {
+  color: rgba(45, 45, 45, 1);
+}

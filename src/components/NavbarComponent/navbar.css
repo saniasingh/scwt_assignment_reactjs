@@ -1,6 +1,8 @@
 .bg-body-tertiary {
-  background: rgba(255, 229, 0, 0.1) !important;
+  /* background: rgba(255, 229, 0, 0.1) !important; */
   /* backdrop-filter: blur(457.29998779296875px); */
+  box-shadow: none;
+  background: transparent !important;
 }
 
 #basic-navbar-nav {
@@ -8,12 +10,14 @@
   height: 25px;
   top: 85px;
   left: 179px;
-  gap: 0px;
-  opacity: 0px;
+}
+
+.me-4 {
+  color: rgba(45, 45, 45, 1);
 }
 
 .me-auto {
-  /* font-family: Inter; */
+  font-family: "Inter", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 20px;

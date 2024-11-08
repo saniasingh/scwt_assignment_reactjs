@@ -74,6 +74,7 @@ export const Customers = () => {
           <div className="p-4">
             <h2
               style={{
+                fontFamily: "Urbanist",
                 fontSize: "50px",
                 lineHeight: "75px",
                 fontWeight: "800",
@@ -94,6 +95,7 @@ export const Customers = () => {
             </h2>
             <p
               style={{
+                fontFamily: "Urbanist",
                 fontSize: "16px",
                 color: " rgba(105, 105, 105, 1)",
                 width: "945px",

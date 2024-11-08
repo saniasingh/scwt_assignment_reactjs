@@ -15,23 +15,29 @@ function AppButton({
       color: "white",
       border: "none",
       boxShadow: "none",
+      textTransform: "none",
     },
     outlined: {
       background: "transparent",
       color: color,
       border: `2px solid ${color}`,
       boxShadow: "none",
+      textTransform: "none",
     },
     transparent: {
       background: "transparent",
       color: color,
       boxShadow: "none",
       border: "none",
+      textTransform: "none",
     },
   };
 
   return (
-    <Button style={{ ...styles[variant], ...style }} {...props}>
+    <Button
+      style={{ ...styles[variant], ...style, fontFamily: "Inter" }}
+      {...props}
+    >
       {children}
     </Button>
   );

@@ -14,17 +14,28 @@ export const HowItWorks = () => {
     <div>
       <section style={{ justifyContent: "center", margin: "60px 100px" }}>
         <div style={{ display: "flex" }}>
-          <p style={{ margin: "0 28px", fontSize: "36px", lineHeight: "55px" }}>
+          <p
+            style={{
+              margin: "0 28px",
+              fontSize: "36px",
+              lineHeight: "55px",
+              fontFamily: "Urbanist",
+            }}
+          >
             Understanding the Mechanism
             <span
               style={{
+                fontFamily: "Urbanist",
+
                 display: "block",
                 fontSize: "56px",
                 fontWeight: "800",
                 lineHeight: "55px",
               }}
             >
-              How It Works
+              How It <span 
+              style={{textShadow: "2px 2px 2px #787"}}
+              >Works</span>
             </span>
           </p>
 

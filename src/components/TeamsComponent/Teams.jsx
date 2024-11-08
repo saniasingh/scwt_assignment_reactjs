@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import Form from "react-bootstrap/Form";
+import AppButton from "../AppButton/AppButton";
 
 export const Teams = () => {
   return (
@@ -11,7 +12,7 @@ export const Teams = () => {
       >
         <Form>
           <Row className="d-flex flex-row">
-            <Col style={{ margin: "0 310px 100px 0", position: "relative" }}>
+            <Col style={{ margin: "0 90px 100px 0", position: "relative" }}>
               <div
                 style={{
                   background:
@@ -22,12 +23,24 @@ export const Teams = () => {
                   opacity: "30%",
                 }}
               ></div>
-              <img src="./Group 47908.png" style={{ position: "absolute", top: "70px" }} />
+              <img
+                src="./Group 47908.png"
+                style={{ position: "absolute", top: "70px" }}
+              />
             </Col>
-            <Col style={{ marginTop: "60px" }}>
-              <p style={{ fontSize: "36px", lineHeight: "55px" }}>For Teams</p>
+            <Col style={{ margin: "60px" }}>
               <p
                 style={{
+                  fontSize: "36px",
+                  lineHeight: "55px",
+                  fontFamily: "Urbanist",
+                }}
+              >
+                For Teams
+              </p>
+              <p
+                style={{
+                  fontFamily: "Urbanist",
                   fontSize: "36px",
                   fontWeight: "800",
                   lineHeight: "55px",
@@ -36,6 +49,8 @@ export const Teams = () => {
                 The #1 Platform for Teams,
                 <span
                   style={{
+                    fontFamily: "Urbanist",
+
                     display: "block",
                     WebkitTextStroke: "1px black",
                     color: "transparent",
@@ -48,6 +63,7 @@ export const Teams = () => {
               </p>
               <p
                 style={{
+                  fontFamily: "Inter",
                   width: "551px",
                   height: "150px",
                   color: "rgba(105, 105, 105, 1)",
@@ -62,13 +78,14 @@ export const Teams = () => {
                 in reprehenderit in voluptate velit esse cillum dolore eu fugiat
                 nulla pariatur.
               </p>
-              <Button>Read More</Button>
+              <AppButton style={{ fontSize: "16px" }}>Read More</AppButton>
             </Col>
           </Row>
           <Row className="d-flex flex-row">
-            <Col style={{marginTop: "60px"}}>
+            <Col style={{ marginTop: "60px" }}>
               <p
                 style={{
+                  fontFamily: "Urbanist",
                   fontSize: "36px",
                   fontWeight: "800",
                   lineHeight: "55px",
@@ -77,6 +94,8 @@ export const Teams = () => {
                 Measure, Monitor, and Manage
                 <span
                   style={{
+                    fontFamily: "Urbanist",
+
                     display: "block",
                     WebkitTextStroke: "1px black",
                     color: "transparent",
@@ -90,7 +109,7 @@ export const Teams = () => {
               <Row style={{ margin: "10px 0" }}>
                 <Col className="py-1">
                   <img
-                    src="./Group.png"
+                    src="./admin_control.png"
                     alt="Logo"
                     style={{
                       width: "50px",
@@ -103,6 +122,8 @@ export const Teams = () => {
                 <Col md={10}>
                   <Row
                     style={{
+                      fontFamily: "Urbanist",
+
                       margin: "8px 0",
                       color: "black",
                       fontSize: "22px",
@@ -115,6 +136,8 @@ export const Teams = () => {
 
                   <Row
                     style={{
+                      fontFamily: "Urbanist",
+
                       margin: "8px 0",
 
                       color: "rgba(105, 105, 105, 1)",
@@ -131,7 +154,7 @@ export const Teams = () => {
               <Row style={{ margin: "10px 0" }}>
                 <Col className="py-1">
                   <img
-                    src="./Group (1).png"
+                    src="./track_performance.png"
                     alt="Logo"
                     style={{
                       width: "50px",
@@ -143,6 +166,8 @@ export const Teams = () => {
                 <Col md={10}>
                   <Row
                     style={{
+                      fontFamily: "Urbanist",
+
                       margin: "8px 0",
                       color: "black",
                       fontSize: "22px",
@@ -155,6 +180,8 @@ export const Teams = () => {
 
                   <Row
                     style={{
+                      fontFamily: "Urbanist",
+
                       margin: "8px 0",
                       color: "rgba(105, 105, 105, 1)",
                       fontSize: "16px",
@@ -170,7 +197,7 @@ export const Teams = () => {
               <Row style={{ margin: "10px 0" }}>
                 <Col className="py-1">
                   <img
-                    src="./Group.png"
+                    src="./filler_logo.png"
                     alt="Logo"
                     style={{
                       width: "50px",
@@ -183,7 +210,7 @@ export const Teams = () => {
                   <Row
                     style={{
                       margin: "8px 0",
-
+                      fontFamily: "Urbanist",
                       color: "black",
                       fontSize: "22px",
                       fontWeight: "800",
@@ -196,7 +223,7 @@ export const Teams = () => {
                   <Row
                     style={{
                       margin: "8px 0",
-
+                      fontFamily: "Urbanist",
                       color: "rgba(105, 105, 105, 1)",
                       fontSize: "16px",
                       fontWeight: "00",
@@ -211,7 +238,7 @@ export const Teams = () => {
               <Row style={{ margin: "10px 0" }}>
                 <Col className="py-1">
                   <img
-                    src="./Group (1).png"
+                    src="./filler_logo.png"
                     alt="Logo"
                     style={{
                       width: "50px",
@@ -225,7 +252,7 @@ export const Teams = () => {
                   <Row
                     style={{
                       margin: "8px 0",
-
+                      fontFamily: "Urbanist",
                       color: "black",
                       fontSize: "22px",
                       fontWeight: "800",
@@ -238,7 +265,7 @@ export const Teams = () => {
                   <Row
                     style={{
                       margin: "8px 0",
-
+                      fontFamily: "Urbanist",
                       color: "rgba(105, 105, 105, 1)",
                       fontSize: "16px",
                       fontWeight: "00",
@@ -265,7 +292,10 @@ export const Teams = () => {
                   marginLeft: "32%",
                 }}
               ></div>
-              <img src="./Group 47911.png" style={{ position: "absolute", top: "75px"}} />
+              <img
+                src="./Group 47911.png"
+                style={{ position: "absolute", top: "75px" }}
+              />
             </Col>
           </Row>
         </Form>

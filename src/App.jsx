@@ -10,13 +10,13 @@ import { Teams } from "./components/TeamsComponent/Teams.jsx";
 
 function App() {
   return (
-    <div>
+    <div className="page-bg">
       <NavBar />
       <HeroSection />
       {/* <HowItWorkcard data={steps} /> */}
       <Teams />
       <HowItWorks />
-      <Customers />
+      <Customers /> 
       <ReachOutComponent />
       <Footer />
     </div>

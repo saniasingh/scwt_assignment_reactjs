@@ -27,26 +27,54 @@ export const NavBar = () => {
         </Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto ">
-            <Nav.Link href="#home" className="me-4">
+          <Nav className="me-auto px-4">
+            <Nav.Link
+              href="#home"
+              className="me-4"
+              style={{ margin: "0 8px" }}
+            >
               Home
             </Nav.Link>
-            <Nav.Link href="#home" className="me-4">
+            <Nav.Link
+              href="#home"
+              className="me-4"
+              style={{ margin: "0 22px" }}
+            >
               For Team
             </Nav.Link>
-            <Nav.Link href="#home" className="me-4 fw-bold">
+            <Nav.Link
+              href="#home"
+              className="me-4 fw-bold"
+              style={{ margin: "0 22px" }}
+            >
               Features
             </Nav.Link>
-            <Nav.Link href="#home" className="me-4 fw-bold">
+            <Nav.Link
+              href="#home"
+              className="me-4 fw-bold"
+              style={{ margin: "0 22px" }}
+            >
               Why Us
             </Nav.Link>
-            <Nav.Link href="#home" className="me-4 fw-bold">
+            <Nav.Link
+              href="#home"
+              className="me-4 fw-bold"
+              style={{ margin: "0 22px" }}
+            >
               Share
             </Nav.Link>
-            <Nav.Link href="#home" className="me-4 fw-bold">
+            <Nav.Link
+              href="#home"
+              className="me-4 fw-bold"
+              style={{ margin: "0 22px" }}
+            >
               FAQ
             </Nav.Link>
-            <Nav.Link href="#home" className="me-4 fw-bold">
+            <Nav.Link
+              href="#home"
+              className="me-4 fw-bold"
+              style={{ margin: "0 22px" }}
+            >
               Testimonials
             </Nav.Link>
           </Nav>
@@ -70,7 +98,11 @@ export const NavBar = () => {
               <Button
                 type="submit"
                 variant="dark"
-                style={{ textTransform: "none", lineHeight: "20px",padding: "0px" }}
+                style={{
+                  textTransform: "none",
+                  lineHeight: "20px",
+                  padding: "0px",
+                }}
               >
                 Onetaag for Teams
               </Button>

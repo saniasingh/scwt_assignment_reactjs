@@ -1,8 +1,9 @@
+/* eslint-disable react/prop-types */
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { steps } from "./howItWorkData.json";
+import "./howItWork.css";
 
-export const HowItWorkcard = () => {
+export const HowItWorkcard = ({ heading, icon, alt, title, description }) => {
   return (
     <Card
       style={{
@@ -26,41 +27,16 @@ export const HowItWorkcard = () => {
             color: "rgba(255, 255, 255, 1)",
           }}
         >
-          Step 1
+          {heading}
         </Card.Title>
-        {/* <Card.Img src={data.src} alt={data.alt} /> */}
         <Card.Img
-          src="./Group 47917.png"
+          src={icon}
           style={{ width: "38px", height: "38px" }}
+          alt={alt}
         ></Card.Img>
-        <Card.Title style={{ margin: "8px 0" }}>Order</Card.Title>
-        <Card.Text>
-          Select a card and add-ons. Complete the order process and payment.
-        </Card.Text>
+        <Card.Title style={{ margin: "8px 0", fontFamily: "Urbanist" }}>{title}</Card.Title>
+        <Card.Text>{description}</Card.Text>
       </Card.Body>
     </Card>
   );
 };
-
-/* <div style={{display: "flex"}}>
-        {data.map((item, idx) => {
-        return (
-            <p key={idx}>{item.heading}</p> 
-        )
-      })}
-      {data.map((item, idx) => {
-        return (
-          <img
-            src={item.src}
-            alt={item.alt}
-            key={idx}
-
-          ></img>
-        );
-      })}
-      {data.map((item, idx) => {
-        return (
-            <p key={idx}>{item.title}</p> 
-        )
-      })}
-    </div> */
