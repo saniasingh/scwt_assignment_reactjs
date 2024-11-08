@@ -2,28 +2,28 @@
   "steps": [
     {
       "heading": "Step 01",
-      "src": "./Group 47917.png",
+      "icon": "./Group 47917.png",
       "alt": "Order Image",
       "title": "Order",
       "description": "Select a card and add-ons. Complete the order process and payment."
     },
     {
       "heading": "Step 02",
-      "src": "./Group 47916.png",
+      "icon": "./Group 47916.png",
       "alt": "Design Image",
       "title": "Design",
       "description": "Provide design input and upload your logo through the design portal."
     },
     {
       "heading": "Step 03",
-      "src": "./Group 47915.png",
+      "icon": "./Group 47915.png",
       "alt": "Review Image",
       "title": "Review",
       "description": "Review the digital design proof and provide feedback."
     },
     {
       "heading": "Step 04",
-      "src": "./Group 47914.png",
+      "icon": "./Group 47914.png",
       "alt": "Print Image",
       "title": "Print & Ship",
       "description": "After approval we will program, produce and ship your card."
