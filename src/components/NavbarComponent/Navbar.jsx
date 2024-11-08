@@ -38,21 +38,21 @@ export const NavBar = () => {
             <Nav.Link
               href="#home"
               className="me-4"
-              style={{ margin: "0 22px" }}
+              style={{ margin: "0 8px" }}
             >
               For Team
             </Nav.Link>
             <Nav.Link
               href="#home"
               className="me-4 fw-bold"
-              style={{ margin: "0 22px" }}
+              style={{ margin: "0 8px" }}
             >
               Features
             </Nav.Link>
             <Nav.Link
               href="#home"
               className="me-4 fw-bold"
-              style={{ margin: "0 22px" }}
+              style={{ margin: "0 8px" }}
             >
               Why Us
             </Nav.Link>
@@ -99,6 +99,9 @@ export const NavBar = () => {
                 type="submit"
                 variant="dark"
                 style={{
+                  width: "172px",
+                  fontSize: "14px",
+                  padding: "0 20px",
                   textTransform: "none",
                   lineHeight: "20px",
                   padding: "0px",

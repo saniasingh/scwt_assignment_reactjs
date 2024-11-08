@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import Button from "react-bootstrap/Button";
 import { HowItWorkcard } from "./HowItWorkcard";
 import howItWorkData from "./howItWorkData.json";
+import AppButton from "../AppButton/AppButton";
+
 
 export const HowItWorks = () => {
   const [data, setData] = useState([]);
@@ -39,9 +41,9 @@ export const HowItWorks = () => {
             </span>
           </p>
 
-          <Button type="submit" variant="dark" style={{ marginLeft: "40%" }}>
+          <AppButton type="submit" variant="dark" style={{ marginLeft: "40%", textTransform: "none", fontSize: "16px" }}>
             Read More
-          </Button>
+          </AppButton>
         </div>
 
         <div

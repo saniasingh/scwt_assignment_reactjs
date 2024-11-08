@@ -3,6 +3,7 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import "./howItWork.css";
 
+
 export const HowItWorkcard = ({ heading, icon, alt, title, description }) => {
   return (
     <Card
