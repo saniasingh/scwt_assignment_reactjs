@@ -39,30 +39,40 @@ export const Footer = () => {
               </div>
             </Col>
             <Col xs="auto" md={4}>
-              <h3
-                style={{
-                  
-                }}
-              >
-                Quick Nav
-              </h3>
+              <h3 style={{}}>Quick Nav</h3>
               <p>
-                <a href="#!" className="text-reset">
+                <a
+                  href="#!"
+                  className="text-reset"
+                  style={{ fontFamily: "Urbanist" }}
+                >
                   About Us
                 </a>
               </p>
               <p>
-                <a href="#!" className="text-reset">
+                <a
+                  href="#!"
+                  className="text-reset"
+                  style={{ fontFamily: "Urbanist" }}
+                >
                   Features
                 </a>
               </p>
               <p>
-                <a href="#!" className="text-reset">
+                <a
+                  href="#!"
+                  className="text-reset"
+                  style={{ fontFamily: "Urbanist" }}
+                >
                   Why Us
                 </a>
               </p>
               <p>
-                <a href="#!" className="text-reset">
+                <a
+                  href="#!"
+                  className="text-reset"
+                  style={{ fontFamily: "Urbanist" }}
+                >
                   Testimonials
                 </a>
               </p>
@@ -83,25 +93,34 @@ export const Footer = () => {
               <p>
                 <a href="#!" className="text-reset">
                   <MDBIcon fas icon="location-arrow" />
-                  <span> 918 Abner Road, Hudson</span>
+                  <span style={{ fontFamily: "Urbanist" }}>
+                    {" "}
+                    918 Abner Road, Hudson
+                  </span>
                 </a>
               </p>
               <p>
                 <a href="#!" className="text-reset">
                   <MDBIcon fas icon="envelope" />
-                  <span> example@mail.com</span>
+                  <span style={{ fontFamily: "Urbanist" }}>
+                    {" "}
+                    example@mail.com
+                  </span>
                 </a>
               </p>
               <p>
                 <a href="#!" className="text-reset">
                   <MDBIcon fas icon="phone" />
-                  <span> +1234567890</span>
+                  <span style={{ fontFamily: "Urbanist" }}> +1234567890</span>
                 </a>
               </p>
               <p>
                 <a href="#!" className="text-reset">
                   <MDBIcon fas icon="clock" />
-                  <span> 07.00 AM - 23.00 PM</span>
+                  <span style={{ fontFamily: "Urbanist" }}>
+                    {" "}
+                    07.00 AM - 23.00 PM
+                  </span>
                 </a>
               </p>
             </Col>
